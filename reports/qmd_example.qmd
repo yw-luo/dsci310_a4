@@ -57,12 +57,12 @@ to further support this hypothesis.
 
 Suppose we were interested in looking in more closely at the province 
 with the highest spread (in terms of standard deviation) of horse populations. 
-We present the standard deviations in @tbl-horse1.
+We present the standard deviations in @tbl-horse-sd.
 
 <!-- Table 1. Standard deviation of historical (1906-1972) horse populations for each Canadian province. -->
 
 ```{r}
-#| label: tbl-horse1
+#| label: tbl-horse-sd
 #| tbl-cap: Standard deviation of historical (1906-1972) horse populations for each Canadian province.
 
 horses_sd_table <- read_csv("../results/horses_sd.csv")
@@ -74,12 +74,12 @@ Note that we define standard deviation (of a sample) as
 
 $$s = \sqrt{\frac{\sum_{i=1}^N (x_i - \overline{x})^2}{N-1} }$$
 
-Additionally, note that in @tbl-horse1 we consider the sample standard deviation of the number of horses during the same time span as @fig-figure1.
+Additionally, note that in @tbl-horse-sd we consider the sample standard deviation of the number of horses during the same time span as @fig-figure1.
 
 ![Horse populations for the province with the largest standard deviation](../results/horse_pop_plot_largest_sd.png){#fig-figure2 width=70%}
 
 <!-- @fig-figure2: Horse populations for the province with the largest standard deviation -->
 
-In @fig-figure2 we zoom in and look at the province of ???, which had the largest spread of values in terms of standard deviation.
+In @fig-figure2 we zoom in and look at the province of `{r} largest_sd`, which had the largest spread of values in terms of standard deviation.
 
 # References
