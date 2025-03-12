@@ -5,6 +5,7 @@ format:
   html:
     toc: true # Add headers and table of contents
     toc-depth: 2
+    embed-resources: true  # Ensure all CSS/JS is embedded
 bibliography: references.bib # Formatted citations
 execute:
   echo: false # Hides all R code in the final report.
