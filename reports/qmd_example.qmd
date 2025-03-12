@@ -5,11 +5,6 @@ format:
   html:
     toc: true # Add headers and table of contents
     toc-depth: 2
-    citation: true
-  pdf:
-    toc: true
-    toc-depth: 2
-    citation: true
 bibliography: references.bib # Formatted citations
 execute:
   echo: false # Hides all R code in the final report.
